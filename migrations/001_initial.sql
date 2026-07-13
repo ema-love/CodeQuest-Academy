@@ -1,0 +1,3 @@
+-- Reference migration for SQLite deployments. Flask-Migrate is configured in app/__init__.py.
+-- For a managed migration history, run: flask --app run.py db init && flask --app run.py db migrate -m "initial schema" && flask --app run.py db upgrade
+-- The initial tables are created automatically for quick-start local development.
